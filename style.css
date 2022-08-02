@@ -1,0 +1,159 @@
+body {
+    margin: 0;
+    background: #D1D1D1;
+    font-family: 'Bebas Neue', cursive;
+}
+
+header {
+    background: #B33771;
+}
+
+header::after {
+    content:'';
+    display: table;
+    clear: both;
+}
+
+nav {
+    float: left;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li{
+    display: inline-block;
+    margin-left: 15px;
+    padding: 10px;
+}
+
+nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.heading {
+    text-transform: uppercase;
+    margin-left: 20px;
+    padding: 2px;
+}
+
+.picture {
+    display: block;
+    height: 50px;
+}
+
+.adopt {
+    margin-top: 400px;
+    text-align: center;
+    font-size: 40px;
+}
+
+
+    .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    /* background-color: #2196F3; */
+    padding: 20px ;
+    column-gap: 50px;
+    row-gap: 50px;
+    }
+
+    .grid-item {
+    background-color: white;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    }
+
+    section{
+      background-color: #FFFFFF;
+    }
+
+
+  *{
+      box-sizing: border-box;
+  }
+
+  .help .column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+  }
+
+  .help .row:after {
+    content: "";
+    display: table;
+    clear: all;
+  }
+
+  .help p{
+    font-family: 'Inter', sans-serif;
+    text-align: left;
+    margin : 20px 20px;
+    color: #555555;
+  }
+
+  .title {
+    text-align: center;
+    font-size: 40px;
+    padding: 20px;
+  }
+
+  .main_title {
+    color:#B33771;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+  }
+
+  .subtitle {
+    color: #555555;
+    text-align: center;
+    margin-top: 2px;
+  }
+  
+  main{
+    background-color: #FFFFFF;
+  }
+
+  .button1 {
+    background-color: #B33771;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 16px;
+    margin: 3px 1.5px;
+    cursor: pointer;
+    align-items: center;
+    font-family: 'Bebas Neue', cursive;
+    margin-left:35%;
+  }
+
+  .container{
+    max-width:fit-content ;
+  }
+
+
+.questions {
+  background-color: #FFFFFF;
+  font-family: 'Bebas Neue', cursive;
+  width: 600px;
+  height: 60px;
+  border: none;
+  color: #555555;
+  font-family: 'Bebas Neue', cursive;
+  text-align: left;
+  margin-left: 30%;
+  font-weight: 600;
+  font-size: 20px;
+}
+
